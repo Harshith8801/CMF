@@ -112,5 +112,5 @@ if __name__=="__main__":
     create_table()
     create_con()
     create_tables()
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
     
